@@ -5,7 +5,6 @@ namespace Store.Application.Interface.AppDbContextInterfaces;
 
 public interface IAppDbContext
 {
-    public DbSet<User> Users { get; set; }
     int SaveChanges(bool acceptAllChangesOnSuccess);
     int SaveChanges();
 
